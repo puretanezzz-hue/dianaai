@@ -6,8 +6,8 @@ from telegram.ext import Application
 
 app = Flask(__name__)
 
-TOKEN = os.getenv("8479714875:AAHwEUERvI0nwg3Ev-Y7H4IVcAhPLD0BpbA")        
-GROK_KEY = os.getenv("xai-4SrF3XvYC8JuC9LSGv5rhRt79thTgS6cCbj7bQonQCnwi11FbyIMCf8gWLCDmDQahHBVlhMZ4HSJ9V4a") 
+TOKEN = os.getenv("TOKEN")          # сюда потом вставишь токен от BotFather
+GROK_KEY = os.getenv("GROK_KEY")    # сюда ключ от xAI
 
 SYSTEM = {
     "role": "system",
